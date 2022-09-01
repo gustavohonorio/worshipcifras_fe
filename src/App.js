@@ -13,20 +13,13 @@ import './assets/css/nice-select.css'
 import './assets/css/style.css'
 
 // components
-import PreLoader from './components/core/preloader/PreLoader'
-import Navbar from './components/core/navbar/Navbar';
-import BuscarCifra from './components/core/buscar_cifra/BuscarCifra';
-import BannerDestaque from './components/core/banner_destaque/BannerDestaque';
-import Slider from './components/core/slider/Slider';
+import Core from './components/core/Core';
 
 function App() {
   return (
     <>
       {/* <PreLoader /> */}
-      <Navbar />
-      <BuscarCifra />
-      <BannerDestaque />
-      <Slider />
+      <Core />
     </>
   );
 }
