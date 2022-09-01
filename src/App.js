@@ -14,12 +14,19 @@ import './assets/css/style.css'
 
 // components
 import Core from './components/core/Core';
+import JsImport from './components/utils/JsImport';
+
+// others
+
 
 function App() {
   return (
     <>
       {/* <PreLoader /> */}
       <Core />
+
+      {/* JS */}
+      <JsImport />
     </>
   );
 }

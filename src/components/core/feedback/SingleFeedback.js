@@ -1,4 +1,5 @@
 import React from 'react'
+import feedback_user from '../../../assets/img/testmonial/testimonial1.png'
 
 const SingleFeedback = () => {
     return (
@@ -20,7 +21,7 @@ const SingleFeedback = () => {
                             <div className="testimonial-founder d-flex align-items-center justify-content-center">
                                 <div className="founder-img">
                                     <img
-                                        src="{% static 'img/testmonial/testimonial1.png' %}"
+                                        src={feedback_user}
                                         alt=""
                                     />
                                 </div>

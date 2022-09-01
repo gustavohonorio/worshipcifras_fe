@@ -1,5 +1,7 @@
 import React from 'react'
 
+import logo_footer from '../../../assets/img/logo/logo2_footer.png'
+
 const InfoSection = () => {
     return (
         <div className="col-lg-3 col-md-4 col-sm-8">
@@ -7,8 +9,8 @@ const InfoSection = () => {
                 <div className="single-footer-caption mb-30">
                     {/* logo */}
                     <div className="footer-logo">
-                        <a href="index.html">
-                            <img src="{% static 'img/logo/logo2_footer.png' %}" alt="" />
+                        <a href="#">
+                            <img src={logo_footer} alt="" />
                         </a>
                     </div>
                     <div className="footer-tittle">

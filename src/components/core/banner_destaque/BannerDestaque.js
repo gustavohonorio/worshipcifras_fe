@@ -9,7 +9,7 @@ const BannerDestaque = () => {
             {/* Banner Destaque Start */}
             <div className="have-project">
                 <div className="container">
-                    <div className="haveAproject" data-background={bg_img}>
+                    <div className="haveAproject" style={{ backgroundImage: `url(${bg_img})` }}>
                         <div className="row d-flex align-items-center">
                             <TituloDestaque />
                             <BotaoDestaque />

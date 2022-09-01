@@ -2,6 +2,9 @@ import React from 'react'
 import FooterArea from './FooterArea'
 import FooterBottom from './FooterBottom'
 
+// images
+import bg_footer from '../../../assets/img/shape/footer_bg.png'
+
 const Footer = () => {
     return (
         <>
@@ -9,7 +12,7 @@ const Footer = () => {
             <footer>
                 <div
                     className="footer-main"
-                    data-background="{% static 'img/shape/footer_bg.png' %}"
+                    style={{ backgroundImage: `url(${bg_footer})` }}
                 >
                     <FooterArea />
                     <FooterBottom />
