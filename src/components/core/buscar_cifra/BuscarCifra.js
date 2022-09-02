@@ -11,7 +11,7 @@ const BuscarCifra = () => {
             <br />
             <br />
             {/* Buscar Cifra start */}
-            <form action="{% url 'index' %}" method="get">
+            <form action="" method="get">
                 <div className="whole-wrap">
                     <div className="container box_1170">
                         <div className="section-top-border">

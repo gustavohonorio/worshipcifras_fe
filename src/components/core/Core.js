@@ -13,6 +13,7 @@ import Footer from './footer/Footer';
 const Core = () => {
     return (
         <>
+            {/* <PreLoader /> */}
             <Navbar />
             <BuscarCifra />
             <main>
