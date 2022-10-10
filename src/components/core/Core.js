@@ -9,6 +9,7 @@ import Slider from './slider/Slider';
 import Ranking from './ranking/Ranking';
 import Feedback from './feedback/Feedback';
 import Footer from './footer/Footer';
+import CardDestaque from './card_destaque/CardDestaque';
 
 const Core = () => {
     return (
@@ -17,7 +18,7 @@ const Core = () => {
             <Navbar />
             <BuscarCifra />
             <main>
-                <BannerDestaque />
+                <CardDestaque />
                 <Slider />
                 <Ranking />
                 <Feedback />

@@ -1,6 +1,5 @@
 // styles
-import './App.css';
-import './assets/css/bootstrap.min.css'
+import './App.css'
 import './assets/css/owl.carousel.min.css'
 import './assets/css/flaticon.css'
 import './assets/css/slicknav.css'
