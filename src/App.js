@@ -12,7 +12,7 @@ import './assets/css/nice-select.css'
 import './assets/css/style.css'
 
 // components
-import Core from './components/core/Core';
+import Core from './pages/core/Core';
 import JsImport from './components/utils/JsImport';
 
 
