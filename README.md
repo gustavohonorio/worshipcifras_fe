@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Front End - Worship Cifras
+Este projeto foi desenvolvido para desaclopar o frontend da aplicação Worship Cifras.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
