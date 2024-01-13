@@ -3472,6 +3472,9 @@ hr {
 .footer-bottom-area .footer-border {
     padding: 40px 0px 23px;
 }
+.footer-margin-bottom{
+    margin-bottom: 100px;
+}
 /* artista */
 .footer-artista a {
 	font-size: 25px;
@@ -5858,3 +5861,20 @@ del {
     align-items: center;
     /*height: 100vh; /* Ajuste conforme necessário para a altura desejada */
   }
+
+/* Navbar Logo */
+
+/* src/components/Navbar.css */
+
+.navbar-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  

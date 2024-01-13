@@ -16,6 +16,7 @@ const NewsSection = () => {
                     </ul>
                 </div>
             </div>
+            <div className='footer-margin-bottom'></div>
         </div>
 
     )

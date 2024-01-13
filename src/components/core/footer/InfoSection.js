@@ -16,7 +16,7 @@ const InfoSection = () => {
                     <div className="footer-tittle">
                         <div className="footer-pera">
                             {/*<p class="info1">CNPJ 00123456/0001-23<br>São Carlos SP - Brasil</p>*/}
-                            <p className="info1">São Carlos SP - Brasil</p>
+                            <p className="info1">São José dos Campos - Brasil</p>
                             <p className="info2">contato@worshipcifras.com.br</p>
                         </div>
                     </div>

@@ -15,7 +15,6 @@ const Footer = () => {
                     style={{ backgroundImage: `url(${bg_footer})` }}
                 >
                     <FooterArea />
-                    <FooterBottom />
                 </div>
             </footer>
         </>

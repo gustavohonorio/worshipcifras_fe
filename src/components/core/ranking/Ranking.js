@@ -7,7 +7,6 @@ const Ranking = () => {
         <>
             <section
                 className="blog_area single-post-area section-padding"
-                style={{ marginTop: "-200px" }}
             >
                 <div className="container">
                     <div className="row">

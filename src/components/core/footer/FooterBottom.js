@@ -11,7 +11,7 @@ const FooterBottom = () => {
                             <div className="col-xl-12 ">
                                 <div className="footer-copy-right text-center">
                                     <p>
-                                        Copyright © Todos os direitos reservados | Worshipcifras.com.br
+                                        Copyright © Todos os direitos reservados
                                     </p>
                                 </div>
                             </div>
