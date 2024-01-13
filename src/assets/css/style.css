@@ -5821,7 +5821,6 @@ del {
     justify-content: center;
 }
 .centralizar-itens2 {
-
     flex-direction: row;
     justify-content: center;
 }
@@ -5854,31 +5853,8 @@ del {
 
 /* Cards */
 
-@media screen and (min-width: 600px) {
-    .carousel-inner{
-        display: flex;
-    }
-    .carousel-item{
-        display: block;
-        margin-right: 0;
-        flex: 0 0 calc(100%/3)
-    }
-}
-
-.carousel-inner{
-    padding: 1em;
-}
-.card{
-    margin: 0 .5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-}
-.carousel-control-prev,
-.carousel-control-next {
-  background-color: #A52422;
-  width: 6vh;
-  height: 6vh;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
+.centered-container {
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh; /* Ajuste conforme necessário para a altura desejada */
+  }
