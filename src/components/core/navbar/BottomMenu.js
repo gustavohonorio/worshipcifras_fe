@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaHome, FaSearch, FaPlusSquare, FaHeart, FaUser } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const BottomMenuContainer = styled.div`
@@ -26,14 +27,23 @@ const BottomMenuItem = styled.div`
 `;
 
 const BottomMenu = () => {
+  const [activeButton, setActiveButton] = useState('/'); // Estado para rastrear o botão ativo
+
+  const handleButtonClick = (buttonPath) => {
+    setActiveButton(buttonPath);
+  };
   return (
     <BottomMenuContainer>
-      <BottomMenuItem active>
-        <FaHome size={20} />
-      </BottomMenuItem>
+      <Link to={'/'}>
       <BottomMenuItem>
-        <FaSearch size={20} />
-      </BottomMenuItem>
+            <FaHome size={20} />
+        </BottomMenuItem>
+      </Link>
+      <Link to ={'/search'}>
+      <BottomMenuItem>
+            <FaSearch size={20} />
+        </BottomMenuItem>
+      </Link>
       <BottomMenuItem>
         <FaPlusSquare size={20} />
       </BottomMenuItem>

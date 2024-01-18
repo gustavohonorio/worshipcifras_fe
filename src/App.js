@@ -11,18 +11,23 @@ import './assets/css/slick.css'
 import './assets/css/nice-select.css'
 import './assets/css/style.css'
 
-// components
-import Core from './pages/core/Core';
-import JsImport from './components/utils/JsImport';
+// pages
+import Home from './pages/Home';
+import Search from './pages/Search';
+
+// router
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
-      <Core />
-
-      {/* JS */}
-      <JsImport />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/search" element={<Search />} />
+      </Routes>
+    </Router>
     </>
   );
 }
